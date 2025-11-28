@@ -20,4 +20,5 @@ const compose = (...fns) => {
     if (name === 'error') handlers.push(handler);
   };
   return composed;
-};
+}
+console.log(compose);
